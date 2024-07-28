@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-28T09:56:52Z" name="Default suite" finished-at="2024-07-28T09:57:00Z" duration-ms="8555">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.guru99.bank.TestNGCucumberRunner@3d1848cc]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-07-28T09:56:52Z" name="Default test" finished-at="2024-07-28T09:57:00Z" duration-ms="8555">
+      <class name="com.guru99.bank.TestNGCucumberRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.guru99.bank.TestNGCucumberRunner@3d1848cc]" started-at="2024-07-28T15:26:52Z" name="setUpClass" finished-at="2024-07-28T15:26:52Z" duration-ms="260" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2de366bb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.guru99.bank.TestNGCucumberRunner@3d1848cc]" started-at="2024-07-28T15:26:52Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-28T15:26:59Z" duration-ms="7417" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Unsuccessful login with invalid UserId and valid Password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Guru99 Bank Login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.guru99.bank.TestNGCucumberRunner@3d1848cc]" started-at="2024-07-28T15:26:52Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-28T15:27:00Z" duration-ms="7690" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Unsuccessful login with invalid UserId and invalid Password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Guru99 Bank Login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.guru99.bank.TestNGCucumberRunner@3d1848cc]" started-at="2024-07-28T15:26:52Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-28T15:26:59Z" duration-ms="7417" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Unsuccessful login with valid UserId and invalid Password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Guru99 Bank Login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.guru99.bank.TestNGCucumberRunner@3d1848cc]" started-at="2024-07-28T15:26:52Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-28T15:27:00Z" duration-ms="8265" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful login with valid UserId and valid Password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Guru99 Bank Login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.guru99.bank.TestNGCucumberRunner@3d1848cc]" started-at="2024-07-28T15:27:00Z" name="tearDownClass" finished-at="2024-07-28T15:27:00Z" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.guru99.bank.TestNGCucumberRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
