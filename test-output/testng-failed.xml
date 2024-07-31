@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.guru99.bank.TestNGCucumberRunner">
+      <class name="com.cucumber.runner.TestNGCucumberRunner">
         <methods>
-          <include name="runScenario" invocation-numbers="1 2 3"/>
+          <include name="runScenario" invocation-numbers="1 0 2 3"/>
           <include name="tearDownClass"/>
           <include name="setUpClass"/>
         </methods>
-      </class> <!-- com.guru99.bank.TestNGCucumberRunner -->
+      </class> <!-- com.cucumber.runner.TestNGCucumberRunner -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

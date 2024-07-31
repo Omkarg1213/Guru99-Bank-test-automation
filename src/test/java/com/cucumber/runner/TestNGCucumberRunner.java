@@ -1,4 +1,4 @@
-package com.guru99.bank;
+package com.cucumber.runner;
 
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
@@ -17,4 +17,3 @@ public class TestNGCucumberRunner extends AbstractTestNGCucumberTests {
         return super.scenarios();
     }
 }
-
