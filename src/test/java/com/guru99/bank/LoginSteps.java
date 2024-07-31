@@ -20,6 +20,7 @@ public class LoginSteps {
     private WebDriver driver;
     private Properties config;
     private SoftAssert softAssert;
+    private LoginPage loginPage;
 
     @Before
     public void setUp() {
@@ -33,6 +34,7 @@ public class LoginSteps {
             e.printStackTrace();
             throw new RuntimeException("Failed to load configuration file");
         }
+        loginPage = new LoginPage(driver);
     }
 
     @Given("the user is on the Guru99 Bank login page")
@@ -48,6 +50,7 @@ public class LoginSteps {
     @When("the user enters valid UserId and valid Password")
     public void theUserEntersValidUserIdAndValidPassword() {
         enterCredentials(config.getProperty("username"), config.getProperty("password"));
+        loginPage.takeScreenshot("after_login.png");
     }
 
     @When("the user enters invalid UserId and valid Password")
@@ -69,7 +72,6 @@ public class LoginSteps {
         if (username == null || password == null) {
             throw new RuntimeException("username or password is not defined in the config.properties file");
         }
-        LoginPage loginPage = new LoginPage(driver);
         loginPage.toLogin(username, password);
     }
 
